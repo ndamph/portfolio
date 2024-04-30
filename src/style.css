@@ -7,9 +7,8 @@
 }
 
 body {
-  background: var(--third-color);
+  background: #fbf5e9;
 }
-
 h1 {
   font-family: var(--title-font);
   font-weight: 700;
@@ -23,6 +22,13 @@ h2 {
   font-style: normal;
   color: black;
 }
+
+h4 {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
 p {
   font-family: var(--paragraph-font);
   font-weight: 500;
@@ -35,9 +41,17 @@ hr {
   margin: 0 auto;
   max-width: 80%;
 }
+
+img {
+  border-radius: 6px;
+}
+
 .hero {
+  background: var(--third-color);
   text-align: center;
   padding: 90px 15px 65px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .hero h1 {
@@ -67,4 +81,31 @@ hr {
 .about-button:hover {
   border: 2px solid;
   color: var(--secondary-color);
+}
+
+.card-title-font {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.card-body-content {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+.project-links {
+  color: var(--secondary-color);
+}
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 48px;
+  }
+  .hero h2 {
+    font-size: 32px;
+  }
 }
