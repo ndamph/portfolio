@@ -1,3 +1,17 @@
+body {
+  background: #faebcc;
+}
+
 h1 {
-  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: maroon;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: black;
 }
