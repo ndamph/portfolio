@@ -30,9 +30,14 @@ p {
   color: black;
 }
 
+hr {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
 .hero {
   text-align: center;
-  padding: 90px 15px;
+  padding: 90px 15px 65px;
 }
 
 .hero h1 {
