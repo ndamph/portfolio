@@ -115,6 +115,17 @@ img {
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+.about-section h1 {
+  font-size: 50px;
+}
+
+.about-section h2 {
+  font-size: 30px;
+}
+
+.about-section p {
+  font-size: 20px;
+}
 .secondary-button {
   background: var(--third-color);
   color: var(--main-color);
