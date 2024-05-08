@@ -147,4 +147,7 @@ img {
   .hero h2 {
     font-size: 32px;
   }
+  .about-section {
+    text-align: center;
+  }
 }
