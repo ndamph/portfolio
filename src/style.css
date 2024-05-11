@@ -127,6 +127,10 @@ p {
   color: var(--third-color);
 }
 
+.contact-links a {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 992px) {
   .hero h1 {
     font-size: 48px;
