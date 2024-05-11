@@ -38,6 +38,40 @@ p {
   color: black;
 }
 
+.nav-container {
+  background: var(--header-color);
+  padding: 20px 0;
+}
+
+.nav-container h1 {
+  font-size: 23px;
+  margin: 0;
+}
+
+.nav-container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+  font-weight: 600;
+}
+
+.nav-container a:hover {
+  text-decoration: underline wavy;
+}
+
+.nav-container li.active a {
+  opacity: 0.6;
+}
 .hero {
   background: var(--header-color);
   text-align: center;
