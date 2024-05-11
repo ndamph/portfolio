@@ -68,7 +68,7 @@ p {
   font-weight: 600;
 }
 
-.nav-container a:hover {
+.nav-container li a:hover {
   text-decoration: underline wavy;
 }
 
