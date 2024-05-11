@@ -43,9 +43,11 @@ p {
   padding: 20px 0;
 }
 
-.nav-container h1 {
+.nav-container h1 a {
   font-size: 23px;
   margin: 0;
+  color: var(--main-color);
+  line-height: 50px;
 }
 
 .nav-container ul {
@@ -56,6 +58,7 @@ p {
 .nav-container li {
   display: inline;
   margin-left: 15px;
+  line-height: 50px;
 }
 
 .nav-container a {
