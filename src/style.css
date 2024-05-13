@@ -38,6 +38,10 @@ p {
   color: black;
 }
 
+footer {
+  background: var(--header-color);
+}
+
 .nav-container {
   background: var(--header-color);
   padding: 20px 0;
@@ -125,6 +129,11 @@ p {
 
 .card-links {
   color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.card-links:hover {
+  color: var(--main-color);
 }
 
 .content-container {
@@ -150,7 +159,7 @@ p {
   font-size: 20px;
 }
 .secondary-button {
-  background: var(--third-color);
+  background: transparent;
   color: var(--main-color);
   border: 2px solid var(--main-color);
   border-radius: 20px;
@@ -166,6 +175,47 @@ p {
 
 .contact-links a {
   color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.contact-links a:hover {
+  color: var(--main-color);
+}
+
+.contact-box {
+  padding: 10px;
+  margin: 10px 30px;
+}
+
+.contact-box h1 {
+  font-size: 30px;
+}
+
+.contact-box p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.contact-box a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+.contact-box a:hover {
+  text-decoration: underline wavy;
+}
+
+.social-links a {
+  font-size: 30px;
+  padding: 10px;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+  line-height: 60px;
+}
+
+.social-links a:hover {
+  color: var(--main-color);
 }
 
 @media (max-width: 992px) {
@@ -174,5 +224,11 @@ p {
   }
   .hero h2 {
     font-size: 32px;
+  }
+  .contact-box h1 {
+    font-size: 23px;
+  }
+  .contact-box p {
+    font-size: 18px;
   }
 }
