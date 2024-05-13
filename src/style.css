@@ -40,11 +40,15 @@ p {
 
 footer {
   background: var(--header-color);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .nav-container {
   background: var(--header-color);
   padding: 20px 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .nav-container h1 a {
