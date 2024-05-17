@@ -245,6 +245,12 @@ footer {
   .hero h2 {
     font-size: 32px;
   }
+  .content h1 {
+    font-size: 39px;
+  }
+  .content h2 {
+    font-size: 25px;
+  }
   .contact-box h1 {
     font-size: 23px;
   }
